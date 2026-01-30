@@ -18,26 +18,13 @@ The automation framework is structured using standard industry practices, with a
 ## Project Structure
 HealthClick-Automation-SuperAdminPanel
 
-base/
-Base test setup and common reusable utilities
-
-pages/
-Page Object Model (POM) classes representing application pages
-
-tests/
-Automated test cases covering end-to-end positive scenarios
-
-utils/
-Utility components including the custom bug logger and helper methods
-
-HealthClick_Automation_Bug_Report.xlsx
-Excel-based automated bug report generated during test execution
-
-.gitignore
-Configuration file specifying files and folders excluded from version control
-
-README.md
-Project documentation and execution details
+- base/ – Base test setup and common reusable utilities
+- pages/ – Page Object Model (POM) classes representing application pages
+- tests/ – Automated test cases covering end-to-end positive scenarios
+- utils/ – Utility components including the custom bug logger and helper methods
+- HealthClick_Automation_Bug_Report.xlsx – Excel-based automated bug report generated during test execution
+- .gitignore – Configuration file specifying files and folders excluded from version control
+- README.md – Project documentation and execution details
 
 ## Automated Test Coverage
 The automation suite validates the following functionalities:
