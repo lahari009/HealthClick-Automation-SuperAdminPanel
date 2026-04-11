@@ -33,7 +33,7 @@ class TestDashboardPositive(BaseTest):
             step="Login with valid credentials",
             expected="User should login successfully",
             action=lambda: login.login(
-                "lahari.alla@analogueitsolutionz.com",
+                "admin@analogueitsolutionz.com",
                 "Admin@123"
             )
         )

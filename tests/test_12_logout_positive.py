@@ -22,7 +22,7 @@ class TestLogoutPositive(BaseTest):
             expected="User should login successfully",
             action=lambda: (
                 login.open_login_page(),
-                login.login("lahari.alla@analogueitsolutionz.com", "Admin@123")
+                login.login("admin@analogueitsolutionz.com", "Admin@123")
             )
         )
 

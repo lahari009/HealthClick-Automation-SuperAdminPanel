@@ -33,7 +33,7 @@ class TestCreateOrganizationPositive(BaseTest):
             "Login with valid credentials",
             "User should login successfully",
             lambda: login.login(
-                "lahari.alla@analogueitsolutionz.com",
+                "admin@analogueitsolutionz.com",
                 "Admin@123"
             )
         )
