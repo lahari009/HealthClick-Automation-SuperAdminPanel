@@ -24,7 +24,7 @@ class TestForgotPasswordPositive(BaseTest):
             step="Forgot password positive flow",
             expected="Reset email should be sent",
             action=lambda: login.verify_forgot_password_flow(
-                "lahari.alla@analogueitsolutionz.com"
+                "admin@analogueitsolutionz.com"
             )
         )
 
